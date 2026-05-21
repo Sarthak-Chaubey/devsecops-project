@@ -1,154 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DevSecOps Dashboard</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<section class="comparison">
 
-<header>
-    <h1>🚀 DevSecOps CI/CD Dashboard</h1>
-    <p>Automated Deployment Pipeline using Jenkins, Docker & GitHub</p>
-</header>
+    <h2>⚡ Traditional Deployment vs DevSecOps Automation</h2>
 
-<section class="pipeline">
-    <div class="step">👨‍💻 Developer</div>
-    <div class="arrow">➡</div>
-    <div class="step">📂 GitHub</div>
-    <div class="arrow">➡</div>
-    <div class="step">⚙ Jenkins</div>
-    <div class="arrow">➡</div>
-    <div class="step">🐳 Docker</div>
-    <div class="arrow">➡</div>
-    <div class="step">🚀 Deployment</div>
-</section>
+    <div class="comparison-container">
 
-<section class="cards">
+        <div class="comparison-card old">
+            <h3>❌ Traditional Workflow</h3>
 
-    <div class="card">
-        <h2>📌 Project Overview</h2>
-        <p>
-            This project automates the complete software deployment lifecycle.
-            Whenever code is updated on GitHub,
-            Jenkins automatically triggers the pipeline,
-            builds a Docker image,
-            removes old containers,
-            and deploys the updated application.
-        </p>
-    </div>
+            <ul>
+                <li>Manual code deployment</li>
+                <li>Time consuming process</li>
+                <li>High chance of human errors</li>
+                <li>Manual server/container restart</li>
+                <li>No automated CI/CD pipeline</li>
+                <li>Difficult scalability & maintenance</li>
+                <li>Slow software delivery</li>
+            </ul>
+        </div>
 
-    <div class="card">
-        <h2>⚙ Technologies Used</h2>
-        <ul>
-            <li>Docker Containerization</li>
-            <li>Jenkins CI/CD</li>
-            <li>GitHub Repository</li>
-            <li>Node.js Backend</li>
-            <li>HTML/CSS Frontend</li>
-            <li>Git Version Control</li>
-        </ul>
-    </div>
+        <div class="comparison-card new">
+            <h3>🚀 My DevSecOps Solution</h3>
 
-    <div class="card">
-        <h2>🔥 Pipeline Status</h2>
-        <p>🟢 GitHub Connected</p>
-        <p>🟢 Jenkins Pipeline Running</p>
-        <p>🟢 Docker Deployment Active</p>
-        <p>🟢 Automated CI/CD Successful</p>
+            <ul>
+                <li>Automated Jenkins CI/CD pipeline</li>
+                <li>Automatic Docker image build</li>
+                <li>Automatic container deployment</li>
+                <li>Old container auto cleanup</li>
+                <li>Fast and reliable deployment</li>
+                <li>GitHub integration for automation</li>
+                <li>Modern scalable architecture</li>
+            </ul>
+        </div>
+
     </div>
 
 </section>
-
-<section class="workflow">
-    <h2>📊 CI/CD Workflow Explanation</h2>
-
-    <div class="workflow-box">
-        <h3>1️⃣ GitHub Integration</h3>
-        <p>
-            Source code is stored in GitHub repository.
-            Developers push updated code to GitHub.
-        </p>
-    </div>
-
-    <div class="workflow-box">
-        <h3>2️⃣ Jenkins Automation</h3>
-        <p>
-            Jenkins fetches the latest source code
-            and executes automated pipeline stages
-            defined inside Jenkinsfile.
-        </p>
-    </div>
-
-    <div class="workflow-box">
-        <h3>3️⃣ Docker Build & Deployment</h3>
-        <p>
-            Docker creates an isolated container environment
-            for the application and deploys updated containers automatically.
-        </p>
-    </div>
-
-    <div class="workflow-box">
-        <h3>4️⃣ Continuous Deployment</h3>
-        <p>
-            Old containers are removed automatically
-            and updated applications are deployed without manual work.
-        </p>
-    </div>
-</section>
-
-<section class="graph-section">
-    <h2>📈 Project Progress & Skills</h2>
-
-    <div class="bar">
-        <label>Docker</label>
-        <div class="progress docker">95%</div>
-    </div>
-
-    <div class="bar">
-        <label>Jenkins CI/CD</label>
-        <div class="progress jenkins">90%</div>
-    </div>
-
-    <div class="bar">
-        <label>GitHub Integration</label>
-        <div class="progress github">100%</div>
-    </div>
-
-    <div class="bar">
-        <label>Frontend Dashboard</label>
-        <div class="progress frontend">85%</div>
-    </div>
-</section>
-
-<section class="benefits">
-    <h2>✅ Benefits of This Project</h2>
-
-    <div class="benefit-box">
-        ✔ Faster Deployment Process
-    </div>
-
-    <div class="benefit-box">
-        ✔ Reduced Manual Work
-    </div>
-
-    <div class="benefit-box">
-        ✔ Automated Application Updates
-    </div>
-
-    <div class="benefit-box">
-        ✔ Easy Scalability & Maintenance
-    </div>
-
-    <div class="benefit-box">
-        ✔ Real-world DevOps Workflow
-    </div>
-</section>
-
-<footer>
-    Built by Sarthak 🚀 | DevSecOps Project Dashboard
-</footer>
-
-</body>
-</html>
